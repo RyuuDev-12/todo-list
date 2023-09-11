@@ -17,6 +17,7 @@ verde claro 2: #4E9AAC <br/>
 verde: #2D6E7E <br/>
 verde escuro 1: #153B44 <br/>
 verde escuro 2: #071C21 <br/>
+verde limão : #C6DE41 <br/>
 
 fonte:
 
