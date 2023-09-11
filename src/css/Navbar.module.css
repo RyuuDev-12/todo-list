@@ -1,0 +1,40 @@
+nav{
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 0 30px 30px 0;
+  position: fixed;
+  top: 0;
+}
+
+.newTask{
+  transition: .3s;
+  margin-top: 1rem;
+  border: none;
+  height: 25px;
+  background-color: transparent;
+}
+
+.newTask::before{
+  transform: rotate(90deg);
+}
+
+.newTask::after{
+  transform: translateY(-2px);
+}
+
+.newTask::after, .newTask::before{
+  display: block;
+  content: '';
+  height: 2px;
+  width: 25px;
+  background-color: #4E9AAC;
+}
+
+.newTask:hover{
+  transform: rotate(90deg);
+}
